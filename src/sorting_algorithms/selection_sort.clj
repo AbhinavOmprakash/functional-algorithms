@@ -1,4 +1,4 @@
-(ns functional_algorithms.sorting_algorithms.simple_sort)
+(ns sorting_algorithms.selection_sort)
 
 
 (defn- remove-
