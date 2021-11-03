@@ -10,6 +10,6 @@
     (let [mid (/ (count coll) 2)
           [pivot] (drop (- mid 1) coll)
           coll* (remove-at mid coll)]
-      (lazy-cat (sort (filter #(<= % pivot)coll*) )
+      (lazy-cat (sort (filter #(<= % pivot) coll*))
                 [pivot]
-                (sort (filter #(> % pivot)coll*))))))
+                (sort (filter #(> % pivot) coll*))))))
