@@ -1,4 +1,4 @@
-(ns functional_algorithms.sorting_algorithms.insertion_sort)
+(ns sorting_algorithms.insertion_sort)
 
 (defn insert [coll x]
   (let [[left right] (split-with #(< % x) coll)]
