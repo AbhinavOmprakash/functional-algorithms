@@ -1,5 +1,6 @@
 # functional-algorithms
 Famous algorithms defined in a functional fashion.
+[![codecov](https://codecov.io/gh/AbhinavOmprakash/functional-algorithms/branch/master/graph/badge.svg?token=WONM39CDTS)](https://codecov.io/gh/AbhinavOmprakash/functional-algorithms)
 
 These implementations make use of functional programming techniques like laziness, recursion, and immutability. Performance isn't a priority.
 
