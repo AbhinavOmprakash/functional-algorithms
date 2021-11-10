@@ -23,6 +23,7 @@ $ lein auto test
 - [x] Selection sort
 - [x] Quick sort
 - [x] Merge sort
+- [x] Bubble sort
 
 ## Search Algorithms
 - [x] Binary Search
