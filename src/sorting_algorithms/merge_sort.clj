@@ -1,7 +1,7 @@
 (ns sorting-algorithms.merge-sort)
 
 (defn- merge
-  ([coll]coll)
+  ([coll] coll)
   ([coll1 coll2] (merge coll1 coll2 []))
   ([coll1 coll2 result]
    (if (some empty? [coll1 coll2])
@@ -19,7 +19,7 @@
   (if (= (count coll) 1) 
     (flatten coll)
     (->> coll
-         (partition 2 2 nil)
+         (partition-all 2)
          (map #(apply merge %))
          (recur))))
 
