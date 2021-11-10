@@ -26,10 +26,10 @@ $ lein auto test
 
 ## Search Algorithms
 - [x] Binary Search
-- [] Depth first Search
-- [] Breadth first Search
-- [] Dijkstra's algorithm
-- [] A* search algorithm
+- [ ] Depth first Search
+- [ ] Breadth first Search
+- [ ] Dijkstra's algorithm
+- [ ] A* search algorithm
 ## License
 
 Copyright © 2021 FIXME
