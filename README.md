@@ -1,11 +1,35 @@
 # functional-algorithms
+Famous algorithms defined in a functional fashion.
 
-A Clojure library designed to ... well, that part is up to you.
+These implementations make use of functional programming techniques like laziness, recursion, and immutability. Performance isn't a priority.
 
-## Usage
+# Running tests
+To run tests, you need leiningen.
+run tests with
+```bash
+$ lein test
+```
+or
 
-FIXME
+```bash
+$ lein auto test
+```
 
+
+# Algorithms
+
+## Sorting Algorithms
+- [x] Insertion sort
+- [x] Selection sort
+- [x] Quick sort
+- [x] Merge sort
+
+## Search Algorithms
+- [x] Binary Search
+- [] Depth first Search
+- [] Breadth first Search
+- [] Dijkstra's algorithm
+- [] A* search algorithm
 ## License
 
 Copyright © 2021 FIXME
